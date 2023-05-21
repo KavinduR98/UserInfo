@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 
 const UserCard = ({ user }) => {
     return (
-        <div className="user-card card" style={{ width: "18rem" }}>
-            <img src={user.avatar} alt={user.first_name} className="card-img-top" />
-            <div className="card-body">
-                <h3>{user.first_name}</h3>
-                <a href="{`/user/${user.id}" class="btn btn-primary">View Details</a>
+        <Link to={`/user/${user.id}`} style={{ textDecoration: 'none', color:"black" }}>
+            <div className="user-card card" style={{ width: "18rem" }} hoverable>
+                <img src={user.avatar} alt={user.first_name} className="card-img-top" />
+                <div className="card-body">
+                    <div className='text-start'>
+                        <h3>{user.first_name}</h3>
+                        <h6>{user.email}</h6>
+                    </div>
+                </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
