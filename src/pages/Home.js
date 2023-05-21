@@ -26,10 +26,12 @@ const Home = () => {
             <div>
                 <nav className="navbar navbar-light" style={{ backgroundColor: "#0194ff", height: "65px" }}>
                     <div className="container-fluid">
-                        <span className="navbar-brand mb-0 h1" style={{ color: "#fff", paddingLeft: "40rem" }}>Title</span>
+                        <span className="navbar-brand mb-0 h1" style={{ color: "#fff", paddingLeft: "45rem" }}>Title</span>
                     </div>
                 </nav></div>
-            <h1>Users</h1>
+                &nbsp;
+            <h3 className='text-start' style={{ marginLeft: "3rem" }}>Users</h3>
+            &nbsp;
             <div className='container'>
                 <div className="row">
                     <div className="col-md-12">

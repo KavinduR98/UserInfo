@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const UserCard = ({ user }) => {
     return (
         <Link to={`/user/${user.id}`} style={{ textDecoration: 'none', color:"black" }}>
-            <div className="user-card card" style={{ width: "18rem" }} hoverable>
+            <div className="user-card card" style={{ width: "25rem" }} hoverable>
                 <img src={user.avatar} alt={user.first_name} className="card-img-top" />
                 <div className="card-body">
                     <div className='text-start'>

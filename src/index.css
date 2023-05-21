@@ -19,6 +19,6 @@ code {
 }
 
 .user-card {
-  width: calc(33% - 10px);
+  width: calc(45% - 10px);
   margin-bottom: 20px;
 }
