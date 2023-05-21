@@ -29,7 +29,7 @@ const Home = () => {
                         <span className="navbar-brand mb-0 h1" style={{ color: "#fff", paddingLeft: "45rem" }}>Title</span>
                     </div>
                 </nav></div>
-                &nbsp;
+            &nbsp;
             <h3 className='text-start' style={{ marginLeft: "3rem" }}>Users</h3>
             &nbsp;
             <div className='container'>
